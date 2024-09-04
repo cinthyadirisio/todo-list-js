@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("./img/bg-cats-mosaic.jpg");
+  padding: 1rem;
+
+  font-family: "Glory", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+header,
+main,
+footer {
+  background-color: #ffffffc7;
+  border-radius: 15px;
+  padding: 0.5rem;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo-box{
+  display: flex;
+  align-items: baseline;
+}
+.pen {
+  height: 5rem;
+  padding: 10px;
+}
+.searcher{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 5;
+  gap: 1rem;
+  align-items: center;
+}
+
+.input-box {
+  padding: 1rem;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.input-box > div {
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-box > input {
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.btn {
+  padding: 4px 2px;
+}
+
+.notes-box {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+.note,
+.input-box {
+  background-color: #ffffffeb;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+
+  
+  padding: 1rem;
+  border-radius: 15px;
+
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-x {
+  padding: 3px;
+}
+
+label {
+  padding: 0.3rem;
+}
+footer>p {
+  text-align: center;
+  font-weight: bold;
+}

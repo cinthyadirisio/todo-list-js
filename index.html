@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de tareas</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script type="module" src="./assets/app.js"></script>
+  </head>
+  <body>
+    <header>
+      <section>
+        <div class="logo-box">
+          <img class="pen" src="./assets/img/pen.png" alt="pen" />
+          <h1>Lista de tareas</h1>
+        </div>
+        <p>
+          App donde puedes crear tareas, marcarlas como "Hechas" y eliminarlas.
+        </p>
+      </section>
+      <section class="searcher">
+        <input id="searchBar" type="text" placeholder="Buscar por texto"/>
+          <label for="pending">Por hacer
+              <input type="checkbox" name="pending" id="pending">
+            </label>
+            <label for="done">Terminadas
+              <input type="checkbox" name="done" id="done">
+            </label>
+      </section>
+    </header>
+
+    <main>
+        <section>
+
+            <article class="input-box">
+              <input
+                type="text"
+                name="note-box"
+                id="note-box"
+                placeholder="Escribe tu nota aquí"
+              />
+              <div>
+                <input class="btn" type="reset" value="Borrar" id="resetBtn"/>
+                <input class="btn" type="submit" value="Enviar" id="submitBtn" />
+              </div>
+            </article>
+
+        </section>
+      <section class="notes-box" id="notes-box">
+        <article class="note">
+          <div class="btns">
+            <label for="check-done"
+              >Hecho
+
+              <input type="checkbox" name="check-done" id="check-done" />
+            </label>
+
+            <button class="btn-x">x</button>
+          </div>
+
+          <div class="content-note">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos
+              expedita vitae modi voluptatem quasi quae suscipit itaque et!
+              Labore praesentium odit ad saepe illo fugiat, aliquid id qui
+              officia nobis?
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Hecho con ❤️ y JS Vainilla por Cinthya</p>
+    </footer>
+  </body>
+</html>
