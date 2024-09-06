@@ -1,4 +1,4 @@
-# App 'Lista de Tareas'
-Aplicación para crear Notas, marcarlas como Terminadas, eliminarlas y filtrarlas, con persistencia de datos con localstorage.
+# To-do List
+Create notes, change their state (Pending, Done), filter by text, filter by pending, delete them.
 
 ## JavaScript Vanilla + localstorage
